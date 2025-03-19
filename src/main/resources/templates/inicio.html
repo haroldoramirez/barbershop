@@ -13,9 +13,9 @@
             <a href="#home" class="w3-bar-item w3-button"><b>BARBERSHOP</b> Morgado's</a>
             <!-- Float links to the right. Hide them on small screens -->
             <div class="w3-right w3-hide-small">
-                <a href="#projects" class="w3-bar-item w3-button">Clientes</a>
-                <a href="#about" class="w3-bar-item w3-button">Barbeiros</a>
-                <a href="#contact" class="w3-bar-item w3-button">Contatos</a>
+                <a href="#clientes" class="w3-bar-item w3-button">Clientes</a>
+                <a href="#barbeiros" class="w3-bar-item w3-button">Barbeiros</a>
+                <a href="#contatos" class="w3-bar-item w3-button">Contatos</a>
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@
     <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
         <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
         <div class="w3-display-middle w3-margin-top w3-center">
-            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BARBERSHOP</b></span> <span class="w3-hide-small w3-text-light-grey">Morgado's</span></h1>
         </div>
     </header>
 
@@ -32,8 +32,8 @@
     <div class="w3-content w3-padding" style="max-width:1564px">
 
         <!-- Project Section -->
-        <div class="w3-container w3-padding-32" id="projects">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+        <div class="w3-container w3-padding-32" id="clientes">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Clientes</h3>
         </div>
 
         <div class="w3-row-padding">
@@ -91,8 +91,8 @@
         </div>
 
         <!-- About Section -->
-        <div class="w3-container w3-padding-32" id="about">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+        <div class="w3-container w3-padding-32" id="barbeiros">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Barbeiros</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
                 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat.
@@ -131,8 +131,8 @@
         </div>
 
         <!-- Contact Section -->
-        <div class="w3-container w3-padding-32" id="contact">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+        <div class="w3-container w3-padding-32" id="contatos">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contatos</h3>
             <p>Lets get in touch and talk about your next project.</p>
             <form action="/action_page.php" target="_blank">
                 <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -156,7 +156,7 @@
 
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-16">
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+        <p>Powered by <a th:href="@{/}" title="BARBERSHOP Morgado's" target="_blank" class="w3-hover-text-green">Morgado's</a></p>
     </footer>
 
     <!-- javascript caso necessario -->
