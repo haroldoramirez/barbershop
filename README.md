@@ -1,4 +1,8 @@
+
+
 # Getting Started
+
+### Projeto criado com a finalidade de dar suporte na criação de uma aplicação web robusta.
 
 ### Reference Documentation
 For further reference, please consider the following sections:
